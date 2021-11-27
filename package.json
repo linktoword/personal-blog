@@ -1,0 +1,16 @@
+{
+  "name": "personal-blog",
+  "version": "1.0.0",
+  "description": "个人知识随记",
+  "main": "index.js",
+  "author": "zsf",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "start deploy.sh"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
