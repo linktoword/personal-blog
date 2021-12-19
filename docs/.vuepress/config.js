@@ -3,7 +3,7 @@
  * @Author: zsf
  * @Date: 2021-11-25 09:54:12
  * @LastEditors: zsf
- * @LastEditTime: 2021-11-27 10:28:04
+ * @LastEditTime: 2021-12-19 11:16:24
  */
 module.exports = {
   title: '一个前端菜鸟的知识湖泊', // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
@@ -32,6 +32,7 @@ module.exports = {
           { text: 'JavaScript', link: '/pages/blog/js.md' },
           { text: 'CSS', link: '/pages/blog/css.md' },
           { text: 'Vue', link: '/pages/blog/vue.md' },
+          { text: 'Webpack', link: '/pages/blog/webpack.md' },
         ]
       },
       { text: 'Github', link: '' },
@@ -46,7 +47,8 @@ module.exports = {
           children: [
             ['js.md', 'javascrip'],  //菜单名称为'子菜单1'，跳转至/pages/folder1/test1.md
             ['css.md', 'CSS'],
-            ['vue.md', 'Vue']
+            ['vue.md', 'Vue'],
+            ['webpack.md', 'Webpack'],
           ]
         },
         // {
